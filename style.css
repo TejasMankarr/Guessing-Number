@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 40px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Palette Mosaic', cursive;
+  background:rgb(6, 83, 97);
+  color: #fff;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main{
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left{
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right {
+  width: 9rem;
+  font-size: 0.9rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 2rem;
+  width: 4rem;
+  text-align: center;
+  top: 70%;
+  left: 47%;
+  position: absolute;
+}
+.between{
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+
+} 
+.again {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.check {
+  position: relative;
+  top:1.5rem;
+}
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.guess {
+  background: none;
+  border: 2px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  /* padding: 1.5rem; */
+  width: 5rem;
+  text-align: center;
+  display: block;
+  /* margin-bottom: 1rem; */
+}
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: 1rem;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 1rem;
+}
+
